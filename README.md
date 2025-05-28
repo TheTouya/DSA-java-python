@@ -35,3 +35,28 @@ DSA-java-python/
 │   └── graph.py
 │
 └── README.md
+```
+---
+## 🧠 How to Use
+1. Clone the respository
+   ```bash
+   git clone https://github.com/TheTouya/DSA-java-python.git
+   cd DSA-java-python
+   ```
+2. Navigate to the language and category you want to explore:
+   ```bash
+   cd java/
+   cd python/
+   ```
+3. Open and run the solutions with your preferred IDE or command line.
+
+---
+## 📢 Acknowledgements
+Thanks to the open-source community and platforms like:
+1. [LeetCode](https://leetcode.com/)
+2. [GeeksforGeeks](https://geeksforgeeks.org/)
+3. [W3schools](https://w3schools.com/)
+
+---
+## 📫 Contact
+If you have questions or suggestions, feel free to open an issue or contact me via [e-mail](ali.mojarrad03@gmail.com).
