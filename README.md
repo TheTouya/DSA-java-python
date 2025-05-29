@@ -32,9 +32,9 @@ DSA-java-python/
 │    └── Tree.java
 │    └── Trie.java
 ├── python/
-|   └── node.py
+│   └── node.py
 │   └── graph.py
-|   └── linkedlist.py
+│   └── linkedlist.py
 │
 └── README.md
 ```
