@@ -59,3 +59,9 @@ g.dijkstra('a', 'b') # returns 17
 ### Linked List :
 
 ![screenshot](imgs/code.png)
+
+---
+
+### Graph :
+
+![screenshot](imgs/code1.png)
