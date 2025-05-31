@@ -32,3 +32,9 @@ for val in ll:
 ll.reverse()
 print(ll)             # Output: 30 -> 20 -> 10
 ```
+
+---
+
+## EXAMPLE IMAGE
+
+![screenshot](imgs/code.png)
