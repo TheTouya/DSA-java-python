@@ -6,13 +6,13 @@ class Graph:
     def addVertex(self, u):
         if u not in self.graph:
             self.graph[u] = list()
-    def addEdge(self,u,v,weigh=1):  
+    def addEdge(self,u,v,weight=1):  
         if u not in self.graph:
             self.addVertex(u)
         if v not in self.graph:
             self.addVertex(v)
-        self.graph[u].append((weigh,v))
-        self.graph[v].append((weigh,u))
+        self.graph[u].append((weight,v))
+        self.graph[v].append((weight,u))
     def removeEdge(self, u,v):
         if u in self.graph and v in self.graph:
             self.graph[u] = [x for x in self.graph[u] if x[1] != v]

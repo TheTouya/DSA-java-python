@@ -13,8 +13,13 @@ Currently, it includes an enhanced **Linked List** implementation with the follo
   - Indexing support (`__getitem__`)
   - Iteration support (`__iter__`)
   - String representation (`__str__`)
+- Custom `Graph` class with:
+  - `addVertex(node_1)`, `addEdge(node_1, node_2, weight)` methods
+  - Remove edge between two node `removeEdge(node_1, node_2)`
+  - Remove vertices `removeVertex(node_1)`
+  - Find the shortest path between node with Dijkstra `dijkstra(node_1, node_2)`
 
-## Example Usage
+## Example Usage for linked list
 
 ```python
 from linked_list import Linked_List
@@ -33,8 +38,24 @@ ll.reverse()
 print(ll)             # Output: 30 -> 20 -> 10
 ```
 
+## Example usage for graph
+
+```python
+from graph import Graph
+g = Graph()
+g.addVertex('a')
+g.addVertex('b')
+g.addEdge('a', 'b', weight = 23)
+g.addVertex('c')
+g.addEdge('c', 'a', weight = 12)
+g.addEdge('c', 'b', weight = 5)
+g.dijkstra('a', 'b') # returns 17
+```
+
 ---
 
-## EXAMPLE IMAGE
+## Example images
+
+### Linked List :
 
 ![screenshot](imgs/code.png)
